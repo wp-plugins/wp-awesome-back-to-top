@@ -1,0 +1,816 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AB2T\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-31 13:13+0800\n"
+"PO-Revision-Date: 2014-07-31 13:14+0800\n"
+"Last-Translator: Coolwp <coolwp.com@gmail.com>\n"
+"Language-Team: suoling.net <suifengtec@qq.com>\n"
+"Language: en_IE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../admin/admin.php:30
+msgid "AB2TOP Settings"
+msgstr "AB2TOP设置"
+
+#: ../admin/admin.php:38
+msgid "General"
+msgstr "常规"
+
+#: ../admin/admin.php:54
+msgid "Disable AB2T enqueue bootstrap? "
+msgstr "禁用插件自带bootstrap？"
+
+#: ../admin/admin.php:55
+msgid ""
+"if the boostrap js library has be loaded by your current theme or other "
+"plugin,you should check this!"
+msgstr "如果js库bootstrap已经被当前主题或者其它插件载入，您应该选中此项！"
+
+#: ../admin/admin.php:60
+msgid "Back to top text"
+msgstr "返回顶部文本"
+
+#: ../admin/admin.php:61
+msgid "define you \"Back to top\" tip text"
+msgstr "定义您的 \"返回顶部\"提示文本"
+
+#: ../admin/admin.php:68
+msgid "When to appear it?"
+msgstr "什么时候开始显示？"
+
+#: ../admin/admin.php:69
+msgid ""
+"define the distance between the position to display AB2T and the page header "
+"in px, .ex:600"
+msgstr "以像素为单位，定义开始显示AB2T时的位置与页面头部之间的距离，例如:600"
+
+#~ msgid "WooDeposit"
+#~ msgstr "WooDeposit"
+
+#~ msgid "Proceed to PayPal"
+#~ msgstr "进到Paypal"
+
+#~ msgid ""
+#~ "Allows your user to deduct points/money they have deposited on your "
+#~ "account using the WooDeposit plugin"
+#~ msgstr "启用此支付网关，将允许您的网站用户用预存的款项进行支付以获取优惠。"
+
+#~ msgid ""
+#~ "The WooDeposit and Woocommerce current currency do not match. Please "
+#~ "update to match currencies."
+#~ msgstr "WooDeposit 与 Woocommerce 当前币种不匹配，请确保其币种匹配。"
+
+#~ msgid "WooDeposit and Woocommerce selected currencies matches."
+#~ msgstr "WooDeposit与Woocommerce币种匹配。"
+
+#~ msgid "Enable/Disable"
+#~ msgstr "启用/禁用"
+
+#~ msgid "Enable WooDeposit"
+#~ msgstr "启用 "
+
+#~ msgid "Title"
+#~ msgstr "标题"
+
+#~ msgid "The payment gateway title display to users."
+#~ msgstr "显示给网站用户的支付网关标题。"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "This controls the description which the user sees during checkout."
+#~ msgstr "请在这里输入用户在结账过程中可以看到的这个支付网关的描述内容。"
+
+#~ msgid "Pay via WooDeposits"
+#~ msgstr "通过预付款支付"
+
+#~ msgid "Currency match"
+#~ msgstr "币种匹配"
+
+#~ msgid "Debug Log"
+#~ msgstr "调试记录"
+
+#~ msgid "Enable logging"
+#~ msgstr "启用调试记录"
+
+#~ msgid ""
+#~ "Log PayPal events,  inside <code>woocommerce/logs/woodeposit-%s.txt</code>"
+#~ msgstr "记录调试信息，在<code>woocommerce/logs/woodeposit-%s.txt</code>"
+
+#~ msgid ""
+#~ "Thank you - your order is now pending payment. You should be "
+#~ "automatically redirected to WooDeposit to make payment."
+#~ msgstr "感谢您的惠顾，我们已经收到了您的订单！ "
+
+#~ msgid ""
+#~ "Payment error:You do not have enough balance to checkout your cart. "
+#~ "Deposit more money on your account."
+#~ msgstr "支付错误:您的预存余额不足以支付这个账单！"
+
+#~ msgid ""
+#~ "Payment error:Something went wrong when deducting the total price order "
+#~ "from your deposits. Contact the site administrator if this persist."
+#~ msgstr ""
+#~ "支付错误:从你的存款余额中扣除订单金额时出错了。如果这仍然存在，请与网站管"
+#~ "理员联系。"
+
+#~ msgid "Discount for %s (%s off)"
+#~ msgstr "%s的特别优惠 (减去 %s)"
+
+#~ msgid "Discount for %s"
+#~ msgstr " %s特别优惠:"
+
+#~ msgid "%s off"
+#~ msgstr "减去%s"
+
+#~ msgid "Payment Discounts"
+#~ msgstr "支付接口优惠"
+
+#~ msgid ""
+#~ "Enter an amount (e.g. 20.99, or a percentage, e.g. 5%) for each payment "
+#~ "gateway."
+#~ msgstr ""
+#~ "请为每一种已启用的支付接口输入一个优惠额度(如果是在价格上减去一个固定的数"
+#~ "字，可以这样写20.99，如果是在价格上减去一个百分比，可以这样写5%)."
+
+#~ msgid "Use zero (0) for not applying discounts."
+#~ msgstr "输入0则没有优惠。"
+
+#~ msgid "WooCommerce"
+#~ msgstr "WooCommerce。"
+
+#, fuzzy
+#~ msgid "Configure now the discounts"
+#~ msgstr "支付接口优惠"
+
+#~ msgid ""
+#~ "This widget will display the deposit balance of the current logged in "
+#~ "user."
+#~ msgstr "此小工具将会显示当前已登录用户的余额信息。"
+
+#~ msgid "WPdeposit - Show user info & balance"
+#~ msgstr "WooDeposits显示用户信息与余额"
+
+#~ msgid ""
+#~ "This widget will desplay the deposit balance of the current logged in "
+#~ "user."
+#~ msgstr "次小工具用于显示当前已登录用户的存款余额。"
+
+#~ msgid "Your current balance is"
+#~ msgstr "您当前的余额为"
+
+#~ msgid "You are not logged in"
+#~ msgstr "您尚未登录"
+
+#~ msgid "User Balance"
+#~ msgstr "用户余额"
+
+#~ msgid "Deposits"
+#~ msgstr "存款"
+
+#~ msgid "Payment Options"
+#~ msgstr "支付选项"
+
+#~ msgid "Transactions"
+#~ msgstr "交易记录"
+
+#~ msgid "System"
+#~ msgstr "系统"
+
+#~ msgid "Shortcodes"
+#~ msgstr "短代码"
+
+#~ msgid "Display the payment interface:"
+#~ msgstr "显示预存页面:"
+
+#~ msgid "Display the user balance:"
+#~ msgstr "显示用户的可用余额:"
+
+#~ msgid "Display the deposit history:"
+#~ msgstr "显示用户的预存记录:"
+
+#~ msgid "Show a user his transactions:"
+#~ msgstr "显示给用户其预存交易记录:"
+
+#~ msgid "Show a donation page:"
+#~ msgstr "显示转账页面:"
+
+#~ msgid "Payment options"
+#~ msgstr "支付选项"
+
+#~ msgid "Main settings"
+#~ msgstr "常规设置"
+
+#~ msgid "General Settings"
+#~ msgstr "常规设置"
+
+#~ msgid "Payment Gateway's"
+#~ msgstr "支付网关"
+
+#~ msgid "Mail Templates"
+#~ msgstr "电邮模板"
+
+#~ msgid "Money vs "
+#~ msgstr "钱 vs"
+
+#~ msgid "Custom views"
+#~ msgstr "自定义外观"
+
+#~ msgid "No form fields provided for this Payment Gateway"
+#~ msgstr "此支付接口未提供输入栏"
+
+#~ msgid "Current file"
+#~ msgstr "当前文件"
+
+#~ msgid "No file uploaded yet."
+#~ msgstr "未上传文件。"
+
+#~ msgid "Please login to deposit money on your account."
+#~ msgstr "请在登录后预存！"
+
+#~ msgid "Search results for"
+#~ msgstr "搜索结果"
+
+#~ msgid "api Login ID"
+#~ msgstr "API登录ID"
+
+#~ msgid "Transaction key"
+#~ msgstr "交易记录key"
+
+#~ msgid "Forwarding you to Authorize.net"
+#~ msgstr "将要重定向到Authorize.net"
+
+#~ msgid "IBAN"
+#~ msgstr "IBAN"
+
+#~ msgid "Generating a pdf invoice for your deposit"
+#~ msgstr "为您的预存生成一个PDF格式的发票"
+
+#~ msgid ""
+#~ "Could not process the payment. Contact the Administrator if you keep "
+#~ "getting this message"
+#~ msgstr "未能处理支付，请保存此信息后联系网站管理员"
+
+#~ msgid "WPdeposit notice: New deposit via BANK option added"
+#~ msgstr "WooDeposit 提示: 暂无通过银行选项添加。"
+
+#~ msgid ""
+#~ "A user has deposited via the BANK option, please complete the transaction "
+#~ "in the admin of your wordpress installation (WPdeposit -> Deposits)."
+#~ msgstr ""
+#~ "某个用户通过银行转账在您的网站发生了预存交易，请在管理员界面进行确认。"
+
+#~ msgid "Thumbnail image"
+#~ msgstr "缩略图"
+
+#~ msgid "Upload file"
+#~ msgstr "上传文件"
+
+#~ msgid "Textarea field"
+#~ msgstr "文本域"
+
+#~ msgid "Extra settings"
+#~ msgstr "额外设置"
+
+#~ msgid "Another test field"
+#~ msgstr "另外一个测试输入栏"
+
+#~ msgid "Aquirer"
+#~ msgstr "Aquirer"
+
+#~ msgid "Merchant ID"
+#~ msgstr "商户ID"
+
+#~ msgid "Private key pass"
+#~ msgstr "私钥"
+
+#~ msgid "Private.key file"
+#~ msgstr "私钥文件（.key）"
+
+#~ msgid "Upload File"
+#~ msgstr "上传文件"
+
+#~ msgid "Private.cer file"
+#~ msgstr "私钥认证文件（.cer）"
+
+#~ msgid "Forwarding you to Paypal"
+#~ msgstr "即将重定向到Paypal"
+
+#~ msgid "Paypal email"
+#~ msgstr "Paypal电邮"
+
+#~ msgid ""
+#~ "Error while saving the money settings. Please check your input again."
+#~ msgstr "请检查输入。"
+
+#~ msgid "Settings updated"
+#~ msgstr "设置一更新"
+
+#~ msgid "Pages"
+#~ msgstr "页面"
+
+#~ msgid "Gateway settings updated."
+#~ msgstr "接口设置已更新。"
+
+#~ msgid "Image succesfully uploaded & saved."
+#~ msgstr "图片已上传并保存。"
+
+#~ msgid "Mail templates updated."
+#~ msgstr "电邮模板设置已更新。"
+
+#~ msgid "Amount field cannot be empty"
+#~ msgstr "金额输入栏不能为空。"
+
+#~ msgid "User field cannot be empty"
+#~ msgstr "用户输入栏不能为空"
+
+#~ msgid "Invalid amount (eg: 10)"
+#~ msgstr "不可用的金额(示例：10)"
+
+#~ msgid "Unable to find the specified user."
+#~ msgstr "未找到此特定用户。"
+
+#~ msgid "You cannot donate to yourself."
+#~ msgstr "不能捐赠给您自己啊！"
+
+#~ msgid "You do not have enough to donate."
+#~ msgstr "余额小于捐赠金额。"
+
+#~ msgid "Unable to deduct from your account"
+#~ msgstr "无法从您的帐户中扣除金额"
+
+#~ msgid "Unable to donate to user."
+#~ msgstr "不可捐赠给用户。"
+
+#~ msgid "You have successfully donated"
+#~ msgstr "捐赠成功！"
+
+#~ msgid "to"
+#~ msgstr "给"
+
+#~ msgid "Access Denied"
+#~ msgstr "拒绝访问"
+
+#~ msgid "You need to be "
+#~ msgstr "您需要"
+
+#~ msgid "logged in"
+#~ msgstr "登录后"
+
+#~ msgid "to access this page."
+#~ msgstr "访问此页。"
+
+#~ msgid ""
+#~ "We could not generate the pdf invoice. If you keep getting this message, "
+#~ "contact the site administrator"
+#~ msgstr "未能生成PDF格式的发票，请在保存此信息后联系网站管理员。"
+
+#~ msgid "IBAN: "
+#~ msgstr "IBAN:"
+
+#~ msgid "Money type cannot be empty!"
+#~ msgstr "存款类型不能为空！"
+
+#~ msgid "Convertion rate cannot be empty and must be a numeric value!"
+#~ msgstr "转换率不能为空，请输入一个整数！"
+
+#~ msgid "Amount is not a number"
+#~ msgstr "金额不是一个数字"
+
+#~ msgid "Tried to increment balance with amount that is not a number"
+#~ msgstr "尝试提升余额时，发现那不是个数字"
+
+#~ msgid "Tried to decrement balance with amount that is not a number"
+#~ msgstr "尝试从余额中减去的不是一个数字"
+
+#~ msgid "Payment was processed successfully"
+#~ msgstr "支付处理成功！"
+
+#~ msgid "We received your payment and your account has been updated."
+#~ msgstr "已收到您的预存，您的账户余额已更新。"
+
+#~ msgid "You can now"
+#~ msgstr "您现在可以"
+
+#~ msgid "go back"
+#~ msgstr "返回"
+
+#~ msgid "to our site."
+#~ msgstr "到我们的网站。"
+
+#~ msgid "No deposits found"
+#~ msgstr "暂无预存"
+
+#~ msgid "Username"
+#~ msgstr "用户名"
+
+#~ msgid "Unique code"
+#~ msgstr "ID"
+
+#~ msgid "Amount"
+#~ msgstr "金额"
+
+#~ msgid "Status"
+#~ msgstr "状态"
+
+#~ msgid "Actions"
+#~ msgstr "动作"
+
+#~ msgid "Mark as completed"
+#~ msgstr "标记为已完成"
+
+#~ msgid "You currently have:"
+#~ msgstr "您当前有:"
+
+#~ msgid "Enter the username you wish to donate to"
+#~ msgstr "请输入您要转账给那位用户的用户名。"
+
+#~ msgid "Donate to user"
+#~ msgstr "转账给某人"
+
+#~ msgid "You must be logged in to donate!"
+#~ msgstr "您需要在登录后才可捐赠！"
+
+#~ msgid "Save complete history as pdf"
+#~ msgstr "将完整的记录保存为PDF"
+
+#~ msgid "PDF"
+#~ msgstr "PDF"
+
+#~ msgid "Completed"
+#~ msgstr "已完成"
+
+#~ msgid "Pending confirmation"
+#~ msgstr "等待确认"
+
+#~ msgid "Money amount"
+#~ msgstr "金额"
+
+#~ msgid "Add"
+#~ msgstr "添加"
+
+#~ msgid "Select the amount you wish to deposit"
+#~ msgstr "请选择您的预存金额"
+
+#~ msgid "Select the amount of "
+#~ msgstr "请选择金额"
+
+#~ msgid "No options found"
+#~ msgstr "暂无选项"
+
+#~ msgid "For"
+#~ msgstr "为"
+
+#~ msgid "Or"
+#~ msgstr "或者"
+
+#~ msgid "Choose your own deposit amount"
+#~ msgstr "输入一个自定义的预存金额"
+
+#~ msgid "Pay with:"
+#~ msgstr "支付方式："
+
+#~ msgid "Checkout"
+#~ msgstr "支付"
+
+#~ msgid "You are currently in test mode."
+#~ msgstr "您当前处于测试模式。"
+
+#~ msgid "Update settings"
+#~ msgstr "更新设置"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "No payment options added yet."
+#~ msgstr "暂无支付选项。"
+
+#~ msgid "edit"
+#~ msgstr "编辑"
+
+#~ msgid "delete"
+#~ msgstr "删除"
+
+#~ msgid "field cannot be empty"
+#~ msgstr "输入栏不能为空"
+
+#~ msgid "is not a valid email."
+#~ msgstr "不是一个可用的电邮。"
+
+#~ msgid "is not a numeric value."
+#~ msgstr "不是一个数字。"
+
+#~ msgid "is not a valid URL."
+#~ msgstr "不是一个可用的链接"
+
+#~ msgid ""
+#~ "Something went wrong. Contact the site adminstrator (error: form dialog "
+#~ "expects a callback function)"
+#~ msgstr "出错了！"
+
+#~ msgid ""
+#~ "Something went wrong. Contact the site adminstrator (error: no dialog "
+#~ "fields provided)"
+#~ msgstr "出错了！"
+
+#~ msgid ""
+#~ "Something went wrong. Contact the site adminstrator (error: redirect url "
+#~ "cannot be empty)"
+#~ msgstr "出错了！"
+
+#~ msgid ""
+#~ "Something went wrong. Contact the site adminstrator (error: process type "
+#~ "unkown)"
+#~ msgstr "出错了！"
+
+#~ msgid "type"
+#~ msgstr "类型"
+
+#~ msgid "Convertion rate"
+#~ msgstr "转换率"
+
+#~ msgid "How many "
+#~ msgstr "多少"
+
+#~ msgid "Update Settings"
+#~ msgstr "更新设置"
+
+#~ msgid ""
+#~ "If you wish to modify the look of the different pages/shortcodes, you can "
+#~ "generate custom views which will be used instead of the default views "
+#~ "provided by the plugin."
+#~ msgstr "如果您想修改不同页面/短代码的外观，您可以生成自定义的外观。"
+
+#~ msgid "Note: Generated view files were found in your theme."
+#~ msgstr "提示:已生成的外观文件将会在您的主题中找到。"
+
+#~ msgid ""
+#~ "Custom views were generated in your theme. All view files are located in "
+#~ "a wpdeposit folder."
+#~ msgstr ""
+#~ "被生成的自定义外观已存在于您的主题，全部外观文件位于一个wpdeposit目录下。"
+
+#~ msgid "Available shortcodes for this mail template."
+#~ msgstr "电邮模板中可用的短代码。"
+
+#~ msgid "Success email template"
+#~ msgstr "预存成功电邮模板"
+
+#~ msgid "Error/Cancel email template"
+#~ msgstr "错误/取消电邮模板"
+
+#~ msgid "Update options"
+#~ msgstr "更新设置"
+
+#~ msgid "Mail templates updated"
+#~ msgstr "电邮模板已更新"
+
+#~ msgid ""
+#~ "Will be displayed when an invoice or a deposit history pdf is generated."
+#~ msgstr "将会在发票或者记录PDF生成时显示。"
+
+#~ msgid "Test mode"
+#~ msgstr "测试模式"
+
+#~ msgid "On"
+#~ msgstr "开"
+
+#~ msgid "Off"
+#~ msgstr "关"
+
+#~ msgid "log deposit actions"
+#~ msgstr "记录预存动作"
+
+#~ msgid "Points name"
+#~ msgstr "预存单位名称"
+
+#~ msgid "Single:"
+#~ msgstr "单数:"
+
+#~ msgid "Plural:"
+#~ msgstr "复数："
+
+#~ msgid ""
+#~ "Change this if you wish to use another name than points. Eg: chips, "
+#~ "depositos, ..."
+#~ msgstr "如果您想修改预存的钱的名称，请在这里输入，例如:金币,点..."
+
+#~ msgid "Currency:"
+#~ msgstr "币种:"
+
+#~ msgid "Other"
+#~ msgstr "其它"
+
+#~ msgid "Currency code:"
+#~ msgstr "币种代码:"
+
+#~ msgid "Currency position"
+#~ msgstr "币种标识的位置"
+
+#~ msgid "Before"
+#~ msgstr "前"
+
+#~ msgid "After"
+#~ msgstr "后"
+
+#~ msgid "Company Name:"
+#~ msgstr "公司名称:"
+
+#~ msgid "Company Address:"
+#~ msgstr "公司地址:"
+
+#~ msgid "Company Number:"
+#~ msgstr "公司编号:"
+
+#~ msgid "Company Phone Number:"
+#~ msgstr "公司电话:"
+
+#~ msgid "PDF document footer:"
+#~ msgstr "PDF文档底部:"
+
+#~ msgid ""
+#~ "The content of this field will be displayed in the footer of the "
+#~ "generated pdf and can be used as disclaimer or any other information you "
+#~ "wish to provide the user."
+#~ msgstr "这里设置的内容将会出现在PDF文件的底部。"
+
+#~ msgid "Deposit Success page:"
+#~ msgstr "预存成功页面:"
+
+#~ msgid "Deposit Cancel page:"
+#~ msgstr "预存取消页面:"
+
+#~ msgid "Deposit Failure page:"
+#~ msgstr "预存失败页面："
+
+#~ msgid "Deposit Expired page:"
+#~ msgstr "预存过期页面:"
+
+#~ msgid "Deposit open page:"
+#~ msgstr "预存页面:"
+
+#~ msgid "Deposit confirm message:"
+#~ msgstr "预存确认信息："
+
+#~ msgid "Custom deposit amount limit:"
+#~ msgstr "自定义预存金额限制:"
+
+#~ msgid "0 for no limit."
+#~ msgstr "0=无限制、"
+
+#~ msgid ""
+#~ "Users can specify a custom amount to deposit on their account. You can "
+#~ "set here a limit to that amount."
+#~ msgstr "用户可以制定一个特定的预存金额，您可以在这里设置一个金额限制。"
+
+#~ msgid "Disable plugin styles"
+#~ msgstr "禁用插件样式"
+
+#~ msgid "When contacting us please provide the following information:"
+#~ msgstr "请使用下列信息联系我们："
+
+#~ msgid "Admin Email"
+#~ msgstr "管理员电邮"
+
+#~ msgid "Home"
+#~ msgstr "首页"
+
+#~ msgid "HTML Type"
+#~ msgstr "HTML类型"
+
+#~ msgid "Language"
+#~ msgstr "语种"
+
+#~ msgid "Name"
+#~ msgstr "称呼"
+
+#~ msgid "Version"
+#~ msgstr "版本"
+
+#~ msgid "WP url"
+#~ msgstr "WP链接"
+
+#~ msgid "Deposit mode"
+#~ msgstr "预存模式"
+
+#~ msgid "You have no transactions"
+#~ msgstr "暂无记录"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "User"
+#~ msgstr "用户"
+
+#~ msgid "Message"
+#~ msgstr "信息"
+
+#~ msgid "Login"
+#~ msgstr "登录"
+
+#~ msgid "Please login to view your transactions"
+#~ msgstr "请在登录后查看记录"
+
+#~ msgid "Price will be automatically converted to "
+#~ msgstr "价格会自动转换为"
+
+#~ msgid "Payment Methods"
+#~ msgstr "支付方法"
+
+#~ msgid "Our Details"
+#~ msgstr "我们的详情"
+
+#, fuzzy
+#~ msgid "Numero WPdeposit"
+#~ msgstr "暂无预存"
+
+#, fuzzy
+#~ msgid "WPdeposit"
+#~ msgstr "WooDeposits显示用户信息与余额"
+
+#~ msgid ""
+#~ "Price will be automatically converted to points using the convertion rate "
+#~ "(see WPdeposit settings)."
+#~ msgstr ""
+#~ "Prijs wordt automatisch omgezet naar punten via de omrekeningskoers (zie "
+#~ "WPdeposit instellingen)."
+
+#~ msgid "Money"
+#~ msgstr "Geld"
+
+#~ msgid "money"
+#~ msgstr "geld"
+
+#, fuzzy
+#~ msgid "Balances"
+#~ msgstr "Balans"
+
+#~ msgid "Your current balance is:"
+#~ msgstr "Jouw huidige balans bedraagt:"
+
+#~ msgid "No private.cer uploaded yet"
+#~ msgstr "Private.cer bestand werd nog niet opgeladen"
+
+#~ msgid ""
+#~ "In test mode iDeal options will be overwritten with test data provided by "
+#~ "iDeal."
+#~ msgstr ""
+#~ "In test mode worden de iDeal opties overschreven met test data ter "
+#~ "beschikking gemaakt door iDeal"
+
+#~ msgid "Select the amount of points you wish to buy"
+#~ msgstr "Selecteer het aantal punten u wenst te kopen"
+
+#~ msgid "points"
+#~ msgstr "punten"
+
+#, fuzzy
+#~ msgid ""
+#~ "How many points is 1 credit worth? This is used to convert money to "
+#~ "points and vice versa but also to calculate how much a user has to spend "
+#~ "for a specific amount of points."
+#~ msgstr ""
+#~ "Hoeveel punten is 1 kredit waard? Dit wordt gebruikt op kredieten naar "
+#~ "punten te converteren en omgekeerd maar ok om te bepalen hoeveel een "
+#~ "gebruiker moet betalen voor een specifiek aantal punten."
+
+#~ msgid "User:"
+#~ msgstr "Gebruiker:"
+
+#~ msgid "Balance:"
+#~ msgstr "Balans:"
+
+#~ msgid "Update"
+#~ msgstr "Update"
+
+#~ msgid "User ID"
+#~ msgstr "Gebruiker ID"
+
+#~ msgid "Credits"
+#~ msgstr "Kredieten"
+
+#, fuzzy
+#~ msgid "credits"
+#~ msgstr "Kredieten"
+
+#~ msgid "Choose your own amount of points to buy"
+#~ msgstr "Kies je eigen aantal punten"
+
+#~ msgid "Credit type"
+#~ msgstr "Krediet type"
+
+#, fuzzy
+#~ msgid "testing"
+#~ msgstr "Instellingen opslagen"
